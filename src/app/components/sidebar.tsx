@@ -60,7 +60,8 @@ interface SidebarProps extends BoxProps {
 const LinkItems: Array<LinkItemProps> = [
   { name: 'Home', icon: FiHome, location: '/home' },
   { name: 'Settings', icon: FiSettings, location: '/settings' },
-  { name: 'Profile', icon: FiUser, location: '/profile' },
+  { name: 'User', icon: FiUser, location: '/user' },
+  { name: 'Data', icon: FiTrendingUp, location: '/data' },
 ]
 
 const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
@@ -161,7 +162,7 @@ const MobileNav = ({ onOpen, ...rest }: MobileProps) => {
                 <Avatar
                   size={'sm'}
                   src={
-                    '../../../public/assets/WhatsApp Image 2025-01-14 at 2.50.13 PM.jpeg'
+                    '@/assets/img1.jpeg'
                   }
                 />
                 <VStack

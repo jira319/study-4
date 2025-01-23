@@ -10,7 +10,7 @@ import { Box, Card, CardBody, CardHeader, SimpleGrid } from "@chakra-ui/react";
 
 const HeaderDataContent: HeaderContentProps = {
   titleName: "Home",
-  breadCrumb: ["Home"],
+  breadCrumb: ["/Home"],
 };
 
 function HomePage() {

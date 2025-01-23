@@ -55,7 +55,8 @@ export default function SmallWithSocial() {
         direction={{ base: 'column', md: 'row' }}
         spacing={4}
         justify={{ base: 'center', md: 'space-between' }}
-        align={{ base: 'center', md: 'center' }}>
+        align={{ base: 'center', md: 'center' }}
+        m={5}>
         <Text>©2025Jann All rights reserved</Text>
         <Stack direction={'row'} spacing={6}>
           <SocialButton label={'Twitter'} href={'#'}>
